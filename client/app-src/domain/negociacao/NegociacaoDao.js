@@ -8,7 +8,6 @@ export class NegociacaoDao {
         this._store = 'negociacoes';
     }
 
-
     adiciona(negociacao) {
 
         return new Promise((resolve, reject) => {
@@ -26,6 +25,7 @@ export class NegociacaoDao {
             }
         });
     }
+    
     listaTodos() {
 
         return new Promise((resolve, reject) => {
