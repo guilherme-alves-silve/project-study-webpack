@@ -7,7 +7,11 @@ Não esqueçam de entrar dentro da pasta `client` e executar o comando `npm inst
 
 Para ativar a compilação em tempo real, dentro de `client`, execute o comando `npm run watch`.
 
-## Como executar o servidor
+## Como executar o cliente e o servidor
+
+`sh execute.sh`
+
+## Como executar o servidor separadamente
 
 `npm start`
 
